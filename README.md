@@ -45,7 +45,7 @@ postgress-
 
 ## env example:
 ### Postgres configuration
-PGHOST=<the host ip address> </br>
+PGHOST=*the host ip address* </br>
 PGUSERNAME=postgres </br>
 PGDATABASE=postgres </br>
 PGPASSWORD=p@ssw0rd42 </br>
