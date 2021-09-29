@@ -28,3 +28,17 @@ This sample application demonstrates the following technologies.
 1. Run `npm run dev` to start Node.js
 
 The associated blog post goes into more detail on how to set up PostgreSQL with Docker and how to configure your Okta account.
+
+
+
+## Emphasis:
+app-
+nodejs 14v
+in .env file edit pghost, pgpassword, ip address, and your oktat configuration
+in src/index.js edit ip address
+
+
+postgress-
+configure pass to postgres user after installation
+pg.hba.conf add " host all all {IP}/32 trust"
+postgresql.conf add " listen.addresses = '*' "
