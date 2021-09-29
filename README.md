@@ -42,3 +42,19 @@ postgress-
 * configure pass to postgres user after installation
 * pg.hba.conf add " host all all {IP}/32 trust"
 * postgresql.conf add " listen.addresses = '*' "
+
+# env example:
+## Postgres configuration
+PGHOST=10.164.0.124
+PGUSERNAME=postgres
+PGDATABASE=postgres
+PGPASSWORD=p@ssw0rd42
+PGPORT=5432
+#Node Weight Tracker
+HOST_URL=http://35.204.98.157:8080/
+COOKIE_ENCRYPT_PWD=superAwesomePasswordStringThatIsAtLeast32CharactersLong!
+NODE_ENV=development
+## Okta configuration
+OKTA_ORG_URL=https://dev-90406841.okta.com/
+OKTA_CLIENT_ID=0oa1mu28unNGPWfsC5d7
+OKTA_CLIENT_SECRET=Y8pONzvJLcxazbv-1VyLuQprzqAa19hORDdV20GA
