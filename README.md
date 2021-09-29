@@ -34,7 +34,7 @@ The associated blog post goes into more detail on how to set up PostgreSQL with 
 ## Emphasis:
 app-
 * nodejs 14v
-* in .env file edit pghost, pgpassword, ip address, and your oktat configuration
+* in .env file edit pghost, pgpassword, ip address, and your okta configuration
 * in src/index.js edit ip address
 
 
