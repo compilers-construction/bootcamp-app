@@ -43,18 +43,18 @@ postgress-
 * pg.hba.conf add " host all all {IP}/32 trust"
 * postgresql.conf add " listen.addresses = '*' "
 
-# env example:
-## Postgres configuration
-PGHOST=10.164.0.124
-PGUSERNAME=postgres
-PGDATABASE=postgres
-PGPASSWORD=p@ssw0rd42
-PGPORT=5432
-#Node Weight Tracker
-HOST_URL=http://35.204.98.157:8080/
-COOKIE_ENCRYPT_PWD=superAwesomePasswordStringThatIsAtLeast32CharactersLong!
-NODE_ENV=development
-## Okta configuration
-OKTA_ORG_URL=https://dev-90406841.okta.com/
-OKTA_CLIENT_ID=0oa1mu28unNGPWfsC5d7
-OKTA_CLIENT_SECRET=Y8pONzvJLcxazbv-1VyLuQprzqAa19hORDdV20GA
+## env example:
+### Postgres configuration
+PGHOST=<the host ip address> </br>
+PGUSERNAME=postgres </br>
+PGDATABASE=postgres </br>
+PGPASSWORD=p@ssw0rd42 </br>
+PGPORT=5432 </br>
+#Node Weight Tracker </br> 
+HOST_URL=http://35.204.98.157:8080/ </br> 
+COOKIE_ENCRYPT_PWD=superAwesomePasswordStringThatIsAtLeast32CharactersLong! </br>
+NODE_ENV=development </br>
+### Okta configuration </br>
+OKTA_ORG_URL=https://dev-90406841.okta.com/ </br>
+OKTA_CLIENT_ID=0oa1mu28unNGPWfsC5d7 </br>
+OKTA_CLIENT_SECRET=Y8pONzvJLcxazbv-1VyLuQprzqAa19hORDdV20GA </br>
