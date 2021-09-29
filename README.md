@@ -48,13 +48,13 @@ postgress-
 PGHOST=*the host ip address* </br>
 PGUSERNAME=postgres </br>
 PGDATABASE=postgres </br>
-PGPASSWORD=p@ssw0rd42 </br>
+PGPASSWORD=*your password* </br>
 PGPORT=5432 </br>
 #Node Weight Tracker </br> 
-HOST_URL=http://35.204.98.157:8080/ </br> 
+HOST_URL=http://*your ip address*:8080/ </br> 
 COOKIE_ENCRYPT_PWD=superAwesomePasswordStringThatIsAtLeast32CharactersLong! </br>
 NODE_ENV=development </br>
 ### Okta configuration </br>
-OKTA_ORG_URL=https://dev-90406841.okta.com/ </br>
-OKTA_CLIENT_ID=0oa1mu28unNGPWfsC5d7 </br>
-OKTA_CLIENT_SECRET=Y8pONzvJLcxazbv-1VyLuQprzqAa19hORDdV20GA </br>
+OKTA_ORG_URL=*your okta url* </br>
+OKTA_CLIENT_ID=*your client id* </br>
+OKTA_CLIENT_SECRET=*your client secret* </br>
