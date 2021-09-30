@@ -58,3 +58,9 @@ NODE_ENV=development </br>
 OKTA_ORG_URL=*your okta url* </br>
 OKTA_CLIENT_ID=*your client id* </br>
 OKTA_CLIENT_SECRET=*your client secret* </br>
+
+
+## How to create web app in okta:
+![image](https://user-images.githubusercontent.com/71599740/135457847-bfd8f1d4-bbce-42e8-885f-1c3b34a194e5.png)
+![image](https://user-images.githubusercontent.com/71599740/135457981-82b04468-2fc5-4731-8042-d8ec05b31f2d.png)
+
