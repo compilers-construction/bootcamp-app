@@ -1,4 +1,4 @@
-# Node.js Weight Tracker
+# Node.js Weight Trackerr
 
 ![Demo](docs/build-weight-tracker-app-demo.gif)
 
