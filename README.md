@@ -29,38 +29,19 @@ This sample application demonstrates the following technologies.
 
 The associated blog post goes into more detail on how to set up PostgreSQL with Docker and how to configure your Okta account.
 
-
-
 ## Emphasis:
-app-
 * nodejs 14v
 * in .env file edit pghost, pgpassword, ip address, and your okta configuration
 * in src/index.js edit ip address
 
 
-postgress-
+## postgress:
 * configure pass to postgres user after installation
 * pg.hba.conf add " host all all {IP}/32 trust"
 * postgresql.conf add " listen.addresses = '*' "
 
 ## env example:
-### Postgres configuration
-PGHOST=*the host ip address* </br>
-PGUSERNAME=postgres </br>
-PGDATABASE=postgres </br>
-PGPASSWORD=*your password* </br>
-PGPORT=5432 </br>
-#Node Weight Tracker </br> 
-HOST_URL=http://*your ip address*:8080/ </br> 
-COOKIE_ENCRYPT_PWD=superAwesomePasswordStringThatIsAtLeast32CharactersLong! </br>
-NODE_ENV=development </br>
-### Okta configuration </br>
-OKTA_ORG_URL=*your okta url* </br>
-OKTA_CLIENT_ID=*your client id* </br>
-OKTA_CLIENT_SECRET=*your client secret* </br>
+![image](https://user-images.githubusercontent.com/71599740/140200279-859b256c-a195-414d-8c22-4c478fce224b.png)
 
 
-## How to create web app in okta:
-![image](https://user-images.githubusercontent.com/71599740/135457847-bfd8f1d4-bbce-42e8-885f-1c3b34a194e5.png)
-![image](https://user-images.githubusercontent.com/71599740/135457981-82b04468-2fc5-4731-8042-d8ec05b31f2d.png)
 
